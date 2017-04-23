@@ -9,7 +9,7 @@ A fault-tolerant key/value storage system based on MIT6.824 Lab.Implementing Raf
 * Supporting snapshot
 
 ### Roadmap
-[ ] Replace labRPC with gRPC
-[ ] Revise the test cases for testing gRPC
-[ ] Add development ducuments
+- [ ] Replace labRPC with gRPC
+- [ ] Revise the test cases for testing gRPC
+- [ ] Add development ducuments
 
