@@ -8,10 +8,10 @@ package shardkv
 // talks to the group that holds the key's shard.
 //
 
-import "labrpc"
+import "github.com/KDF5000/HelixKV/labrpc"
 import "crypto/rand"
 import "math/big"
-import "shardmaster"
+import "github.com/KDF5000/HelixKV/shardmaster"
 import "time"
 
 // import "fmt"

@@ -4,11 +4,12 @@ import (
 	"container/list"
 	"encoding/gob"
 	// "fmt"
-	"labrpc"
-	"raft"
 	"sort"
 	"sync"
 	"time"
+
+	"github.com/KDF5000/HelixKV/labrpc"
+	"github.com/KDF5000/HelixKV/raft"
 )
 
 type ShardMaster struct {

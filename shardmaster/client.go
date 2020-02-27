@@ -4,7 +4,7 @@ package shardmaster
 // Shardmaster clerk.
 //
 
-import "labrpc"
+import "github.com/KDF5000/HelixKV/labrpc"
 import "time"
 import "crypto/rand"
 import "math/big"

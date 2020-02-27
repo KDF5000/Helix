@@ -1,7 +1,7 @@
 package shardmaster
 
-import "labrpc"
-import "raft"
+import "github.com/KDF5000/HelixKV/labrpc"
+import "github.com/KDF5000/HelixKV/raft"
 import "testing"
 import "os"
 

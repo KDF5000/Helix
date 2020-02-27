@@ -1,7 +1,7 @@
 package shardkv
 
-import "shardmaster"
-import "labrpc"
+import "github.com/KDF5000/HelixKV/shardmaster"
+import "github.com/KDF5000/HelixKV/labrpc"
 import "testing"
 import "os"
 
@@ -11,7 +11,7 @@ import "math/rand"
 import "encoding/base64"
 import "sync"
 import "runtime"
-import "raft"
+import "github.com/KDF5000/HelixKV/raft"
 import "strconv"
 
 func randstring(n int) string {

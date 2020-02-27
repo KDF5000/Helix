@@ -6,11 +6,12 @@ import (
 	"container/list"
 	"encoding/gob"
 	"fmt"
-	"labrpc"
-	"raft"
-	"shardmaster"
 	"sync"
 	"time"
+
+	"github.com/KDF5000/HelixKV/labrpc"
+	"github.com/KDF5000/HelixKV/raft"
+	"github.com/KDF5000/HelixKV/shardmaster"
 )
 
 type Op struct {
